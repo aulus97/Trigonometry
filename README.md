@@ -1,1 +1,1 @@
-# Trigonometry1
+# Trigonometry
