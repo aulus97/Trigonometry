@@ -13,38 +13,16 @@ public class TestCircle {
 		*/
 		
 		System.out.println("O circulo tem o raio de "+ c1.getRadius() + " e area de "+ c1.getArea());
-		
-		/* Declara e aloca uma segunda instancia da classe Circle chamada c2 
-			com o valor do radius igual a 2.0 	e color	com valor padrÃ£o.
-		*/
-		
-		//Circle c2 = new Circle(2.0);
-		
-		// Para invocar os metodos 	a oerar sobre a instÃ¢ncia c2, usa-	se o operador ponto (â€œ.â€)
-		
-		//System.out.println("O circulo tem raio de "+ c2.getRadius() + " e area de "+ c2.getArea());
-		
-		 Circle c2 = new Circle(1.2); 
+		/*
+		Circle c2 = new Circle(1.2); 
 		 
-	     System.out.println(c2.toString());  // chamada explicita 
-	     
-	     System.out.println(c2);// println() chama toString() implicitamente 
-	     
-	  // no exemplo abaixo o operador '+' invoca c2.toString() implicitamente. 
-	     System.out.println("Aqui o operador '+' também invoca toString(): " + c2); 
-	     
-		Circle c3 = new Circle();
-		c3.setRadius(5.0);
-		c3.setColor("green");
-		
-		// Para invocar os metodos 	a oerar sobre a instÃ¢ncia c3, usa-	se o operador ponto (â€œ.â€)
-		System.out.println("O circulo tem raio de "+ c3.getRadius() + " e area de "+ c3.getArea());
-		
-		//imprimindo o getColor
-		System.out.println("O circulo tem raio de "+ c3.getRadius() + ", area de "+ c3.getArea() + " e cor " + c3.getColor());
-		
-		//c1.radius=5.0;
-		
+		System.out.println(c2.toString());  // chamada explicita 
+		 
+		System.out.println(c2);// println() chama toString() implicitamente 
+		     
+		// no exemplo abaixo o operador '+' invoca c2.toString() implicitamente. 
+		System.out.println("Aqui o operador '+' também invoca toString(): " + c2); 
+		*/
 		System.out.println(c1.toString()); // chamada explicita
 
 	}
