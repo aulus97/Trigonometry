@@ -60,4 +60,3 @@ public class Circle extends Point {
 	}
 
 }
-//nao compilou por falta de uma main
