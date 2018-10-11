@@ -1,4 +1,4 @@
-
+package Trigonometry;
 public class Circle extends Point {          
 	// variáveis de instancia privadas, isto é, não acessíveis de fora desta classe.
 	private double radius;

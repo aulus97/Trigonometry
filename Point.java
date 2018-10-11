@@ -1,3 +1,4 @@
+package Trigonometry;
 
 public class Point {
 	private float x;
